@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6638234303548281229
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2063962799678458858, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063962799678458858, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_Color.g
+      value: 0.24104786
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063962799678458858, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_Color.r
+      value: 0.38679248
+      objectReference: {fileID: 0}
+    - target: {fileID: 2904246408923094922, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_Name
+      value: Case Montagne
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661920179465452758, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+--- !u!212 &4664345851139349095 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2063962799678458858, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+  m_PrefabInstance: {fileID: 6638234303548281229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7083313954996045104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4491006296968238269, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+  m_PrefabInstance: {fileID: 6638234303548281229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8381843586074693127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2904246408923094922, guid: 5c47cc7d6d06a694e8eb3d302d3ee977, type: 3}
+  m_PrefabInstance: {fileID: 6638234303548281229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5542731845405149743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8381843586074693127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f82b36d3667313438ce8dd06b50d95e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 4664345851139349095}
+  _highlight: {fileID: 7083313954996045104}
+  _isWalkable: 0
+  OccupiedUnit: {fileID: 0}
